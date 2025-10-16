@@ -481,7 +481,7 @@ const BookTicket = () => {
                   onChange={handlePassengerChange}
                   className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="sleeper">Sleeper (₹{selectedTrain?.fare?.sleeper || 500})</option>
+                  <option value="sleeper">Sleeper class (₹{selectedTrain?.fare?.sleeper || 500})</option>
                   <option value="ac">AC (₹{selectedTrain?.fare?.ac || 1000})</option>
                   <option value="general">General (₹{selectedTrain?.fare?.general || 300})</option>
                 </select>
